@@ -4,6 +4,8 @@ ng-addapptables is a free template for angular
 
 Addapptables is an admin template develop using angular.
 
+[see demo](http://addapptables.com/admin/dashboard)
+
 ## Getting Started
 
 ### Install dependencies
