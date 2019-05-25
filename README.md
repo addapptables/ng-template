@@ -43,16 +43,21 @@ ng build --prod
 ### Directory Structure
 Addapptables has a fairly simple directory structure. All source code that you will need stays inside the /src folder. Once you build your app, a /dist folder will appear at the root which will contain the built app. You can simply upload the contents of it to your server to start running your app.
 
-####Source Directory (/Src)
+### Source Directory (/Src)
 The source folder has the general Angular CLI project structure along with an additional folder called /@addapptable which contains the core elements of the Addapptables.
 
-/App
+- /App
 This folder contains the AppComponent along with the following directories. Everything that being contained inside these folders are belong to your app and you can edit them however you like while building your app:
 
-/admin: Pages and page layouts.
-/auth: Authorization pages.
-/localication: ngx-translate i18n
-/shared: shared components
+    .
+    ├── admin                   # Pages and page layouts.
+    ├── auth                    # Authorization pages.
+    ├── localication            # Source files (alternatively `lib` or `app`)
+    ├── shared                  # Automated tests (alternatively `spec` or `tests`)
+    ├── documentation
+    ├── startup-template.zip    # Contains skeleton template with authorization component and menu component
+    ├── LICENSE
+    └── README.md
 
 ### Multi Language
 Addapptables uses ngx-translate module and supports multiple languages and translations.
@@ -63,12 +68,12 @@ In order to use the translations, create your translation file within the module
 ### Components
 Addapptables has created several components for the use of the community. You can see these components with the following links
 
-[Addapptables menu](https://github.com/addapptables/menu-admin-ui)
-[Addapptables core](https://github.com/addapptables/core-ui)
-[Addapptables modal](https://github.com/addapptables/modal-ui)
-[Addapptables perfect-scrollbar](https://github.com/addapptables/perfect-scrollbar-ui)
-[Addapptables responsive](https://github.com/addapptables/responsive-ui)
-[Addapptables notifier](https://github.com/addapptables/notifier-ui)
-[Addapptables alert](https://github.com/addapptables/alert-ui)
-[Addapptables card](https://github.com/addapptables/card-ui)
-[Addapptables ngrx-actions](https://github.com/addapptables/ngrx-actions)
+- [Addapptables menu](https://github.com/addapptables/menu-admin-ui)
+- [Addapptables core](https://github.com/addapptables/core-ui)
+- [Addapptables modal](https://github.com/addapptables/modal-ui)
+- [Addapptables perfect-scrollbar](https://github.com/addapptables/perfect-scrollbar-ui)
+- [Addapptables responsive](https://github.com/addapptables/responsive-ui)
+- [Addapptables notifier](https://github.com/addapptables/notifier-ui)
+- [Addapptables alert](https://github.com/addapptables/alert-ui)
+- [Addapptables card](https://github.com/addapptables/card-ui)
+- [Addapptables ngrx-actions](https://github.com/addapptables/ngrx-actions)
