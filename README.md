@@ -1,8 +1,8 @@
 # Addapptables ui
 
-ng-addapptables is a free template for angular
+Addapptables is an admin template developed using angular.
 
-Addapptables is an admin template develop using angular.
+ng-addapptables is a free template for angular.
 
 [see demo](http://addapptables.com/admin/dashboard)
 
@@ -12,20 +12,20 @@ Addapptables is an admin template develop using angular.
 
 - step 1 - Angular is the core of Addapptables.
 
-- step 2 - Angular Material is the primary UI library of the Addapptables. It's a set of Angular components, directives and services that implements Material Design Specifications and it's in active development by Google.
+- step 2 - Angular Material is the primary UI library of Addapptable. It's a set of Angular components, directives and services that implements Material Design Specifications and it's in active development by Google.
 
 - step 3 - Angular Cli is a tool to initialize, develop, scaffold and maintain Angular applications
 
 ### Installation
 
 - Install Nodejs
-- Open terminal and type npm install -g @angular/cli
-- Open terminal and navigate into your work folder, run the following command and wait for it to finish npm install
+- Open the terminal and type npm install -g @angular/cli
+- Open the terminal and navigate into your work folder, run the following command and wait for npm install to finish.
 ```
 npm install
 ```
 
-- Run project with angular cli with
+- Run the project with angular cli with
 ```
 ng serve
 ```
@@ -46,10 +46,10 @@ ng build --prod
 Addapptables has a fairly simple directory structure. All source code that you will need stays inside the /src folder. Once you build your app, a /dist folder will appear at the root which will contain the built app. You can simply upload the contents of it to your server to start running your app.
 
 ### Source Directory (/Src)
-The source folder has the general Angular CLI project structure along with an additional folder called /@addapptable which contains the core elements of the Addapptables.
+The source folder has the general Angular CLI project structure along with an additional folder called /@addapptable which contains the core elements of Addapptables.
 
 - /App
-This folder contains the AppComponent along with the following directories. Everything that being contained inside these folders are belong to your app and you can edit them however you like while building your app:
+This folder contains the AppComponent along with the bellow directories. Everything that these folders contains inside belongs to your app and you can edit them; however, if you prefer you can modify it while building your app:
 
 ### Directory layout
     .
@@ -65,12 +65,12 @@ This folder contains the AppComponent along with the following directories. Ever
 ### Multi Language
 Addapptables uses ngx-translate module and supports multiple languages and translations.
 
-Usage
+- Usage
 In order to use the translations, create your translation file within the module you want to use the translations.
 For example, for the english tanslation, create assets/i18n/en.json file.
 
 ### Components
-Addapptables has created several components for the use of the community. You can see these components with the following links
+Addapptables has created several components for community use. You can see these components with the following links
 
 - [Addapptables menu](https://github.com/addapptables/menu-admin-ui)
 - [Addapptables core](https://github.com/addapptables/core-ui)
