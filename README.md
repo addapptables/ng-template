@@ -66,7 +66,8 @@ This folder contains the AppComponent along with the following directories. Ever
 Addapptables uses ngx-translate module and supports multiple languages and translations.
 
 Usage
-In order to use the translations, create your translation file within the module you want to use the translations. For example, for the menu app, create assets/i18n/en.json file.
+In order to use the translations, create your translation file within the module you want to use the translations.
+For example, for the english tanslation, create assets/i18n/en.json file.
 
 ### Components
 Addapptables has created several components for the use of the community. You can see these components with the following links
