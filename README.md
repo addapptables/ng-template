@@ -49,6 +49,7 @@ The source folder has the general Angular CLI project structure along with an ad
 - /App
 This folder contains the AppComponent along with the following directories. Everything that being contained inside these folders are belong to your app and you can edit them however you like while building your app:
 
+### Directory layout
     .
     ├── admin                   # Pages and page layouts.
     ├── auth                    # Authorization pages.
